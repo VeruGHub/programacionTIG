@@ -10,6 +10,7 @@ toc-title: "Índice"
 format:
   html:
     link-external-newwindow: true
+    embed-resources: true
   gfm: default
 editor: visual
 editor_options:
@@ -65,9 +66,9 @@ Aunque no te interese tanto el análisis de datos, R puede darte algunas oportun
 
 ![Visitas a preguntas de R por sector. https://stackoverflow.blog/2017/10/10/impressive-growth-r/](images/diap_14_imagen_01.png){width="65%"}
 
--   [The Manfred Tech Career Report 2025](https://www.getmanfred.com/en/developer-career-report)
+- [The Manfred Tech Career Report 2025](https://www.getmanfred.com/en/developer-career-report)
 
--   [Dice Salary Survey](https://www.dice.com/technologists/ebooks/tech-salary-report/salaries-by-skill.html)
+- [Dice Salary Survey](https://www.dice.com/technologists/ebooks/tech-salary-report/salaries-by-skill.html)
 
 ## Ejemplos de visualización de datos
 
@@ -81,43 +82,43 @@ Aunque no te interese tanto el análisis de datos, R puede darte algunas oportun
 
 # ¿Qué es RStudio?
 
-Es un entorno de desarrollo integrado (IDE) para programar en R gratuito y de código abierto. 
+Es un entorno de desarrollo integrado (IDE) para programar en R gratuito y de código abierto.
 
 ## ¿Por qué usar RStudio?
 
--   El resaltado de sintaxis, autocompletado de código y sangría inteligente.
+- El resaltado de sintaxis, autocompletado de código y sangría inteligente.
 
--   Permite ejecutar el código de R directamente desde el editor de código.
+- Permite ejecutar el código de R directamente desde el editor de código.
 
--   Tiene documentación y soporte integrado.
+- Tiene documentación y soporte integrado.
 
--   Tiene un asistente IA integrado basado en un LLM (*Large Languaje Model*).
+- Tiene un asistente IA integrado basado en un LLM (*Large Languaje Model*).
 
--   Permite la administración sencilla de múltiples directorios de trabajo mediante proyectos.
+- Permite la administración sencilla de múltiples directorios de trabajo mediante proyectos.
 
--   Permite la navegación en espacios de trabajo y visualizar datos.
+- Permite la navegación en espacios de trabajo y visualizar datos.
 
--   Tiene un depurador interactivo de código para diagnosticar y corregir errores rápidamente.
+- Tiene un depurador interactivo de código para diagnosticar y corregir errores rápidamente.
 
--   Tiene integradas herramientas de desarrollo y acepta complementos.
+- Tiene integradas herramientas de desarrollo y acepta complementos.
 
--   Permite la generación de documentos dinámicos con Quarto.
+- Permite la generación de documentos dinámicos con Quarto.
 
--   Actúa como cliente para otros programas, por ejemplo Git y SVN.
+- Actúa como cliente para otros programas, por ejemplo Git y SVN.
 
 ## Ejercicio
 
 Abre R y RStudio. ¿Qué diferencias observas?
 
-RStudio tiene cuatro zonas diferenciadas: 
+RStudio tiene cuatro zonas diferenciadas:
 
--   El editor de código: sirve para escribir y guardar scripts, resalta la sintaxis, autocompleta código y permite ejecutar líneas o fragmentos.
+- El editor de código: sirve para escribir y guardar scripts, resalta la sintaxis, autocompleta código y permite ejecutar líneas o fragmentos.
 
--   La consola: donde se ejecuta el código. Muestra los resultados de forma inmediata.
+- La consola: donde se ejecuta el código. Muestra los resultados de forma inmediata.
 
--   El navegador del espacio de trabajo, con el entorno –*environment*- y el historial de comandos.
+- El navegador del espacio de trabajo, con el entorno –*environment*- y el historial de comandos.
 
--   La ventana de salidas o *outputs*: muestra archivos del proyecto, gráficos generados, paquetes, ayuda...
+- La ventana de salidas o *outputs*: muestra archivos del proyecto, gráficos generados, paquetes, ayuda...
 
 ## ¿Qué es un archivo .R?
 
@@ -138,7 +139,7 @@ Lectura propuesta: <https://estadistica-dma.ulpgc.es/cursoR4ULPGC/15-programacio
 - **Lenguajes de alto nivel:** instrucciones más próximas al lenguaje humano. Por ejemplo: C, Fortran, Java, Python, R y Matlab.
 - **Lenguajes de bajo nivel:** instrucciones más próximas al código binario.
 
-Además, R es un lenguaje de programación dinámico o interpretado que puede ejecutarse en Linux, Mac y Windows porque existen intérpretes disponibles en estos sistemas operativos. R se considera un lenguaje de programación en sí mismo que va más allá del análisis estadístico. 
+Además, R es un lenguaje de programación dinámico o interpretado que puede ejecutarse en Linux, Mac y Windows porque existen intérpretes disponibles en estos sistemas operativos. R se considera un lenguaje de programación en sí mismo que va más allá del análisis estadístico.
 
 💡 Aunque existen *interfaces* gráficas como RCommander, donde a través de botones puedes indicar a la consola qué hacer, es recomendable aprender a escribir R.
 
@@ -164,16 +165,15 @@ En los sistemas OOP, el tipo de un objeto se denomina clase, y una implementaci�
 
 La programación orientada a objetos, utilizada por lenguajes como Java o Python, ha sido el paradigma de programación más popular en las últimas décadas y emplea un estilo de programación imperativo. R base proporciona tres sistemas OOP (S3 —que es el más utilizado—, S4 y RC), aunque también existen otros sistemas OOP.
 
-
 # Ciencia de datos y flujo de trabajo
 
 La ciencia de datos es el proceso por el que los datos brutos se transforman en comprensión y conocimiento.
 
 > ¿Qué programas utilizáis para ello?
 
-Dentro de este proceso, la programación puede ser la herramienta que se utilice para todo. Y en ella se centra esta asignatura. 
+Dentro de este proceso, la programación puede ser la herramienta que se utilice para todo. Y en ella se centra esta asignatura.
 
-![Esquema del proceso de ciencia de datos. Modificado de:  https://r4ds.hadley.nz/intro.htm](images/datascience.png){width="95%"}
+![Esquema del proceso de ciencia de datos. Modificado de: https://r4ds.hadley.nz/intro.htm](images/datascience.png){width="95%"}
 
 # Reproducibilidad
 
@@ -185,7 +185,7 @@ Dentro de este proceso, la programación puede ser la herramienta que se utilice
 
 ![Espectro de reproducibilidad. Peng 2011. *Science*. https://doi.org/10.1126/science.1213847](images/diap_48_imagen_01.png){width="80%"}
 
-En ciencia de datos: 
+En ciencia de datos:
 
 **Reproducible:** Un resultado es reproducible cuando los mismos pasos de análisis realizados sobre el mismo conjunto de datos producen sistemáticamente el mismo resultado.
 
@@ -229,4 +229,4 @@ En la academia estas ventajas permiten verificar los resultados, colaborar y ava
 
 [Tools for reproducible research](https://kbroman.org/Tools4RR)
 
-[*ROpenSci*](https://ropensci.org) 
+[*ROpenSci*](https://ropensci.org)
