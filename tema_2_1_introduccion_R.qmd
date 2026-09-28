@@ -270,7 +270,7 @@ str(alt_int)
 - Suma 0.5 a todos los valores de `long`.
 
 ```{r sol_vectores}
-#|echo: false
+#| include: false
 
 # long <- c(-3.7, -3.6, -3.8, -3.9)
 # mean(long)
@@ -301,7 +301,7 @@ summary(mat_elev)
 - ¿Qué celda (fila, columna) tiene el máximo?
 
 ```{r sol_matrices}
-#|echo: false
+#| include: false
 
 # mat5 <- matrix(runif(25, min = 0, max = 1), nrow = 5, ncol = 5) #genera números aleatorios con distribución uniforme
 # max_val <- max(mat5)
@@ -328,9 +328,8 @@ summary(municipios)
 Crea un *data frame* llamado `rios` con tres ríos y las columnas `nombre`, `longitud_km` y `caudal_m3s`.
 
 ```{r sol_dataframes}
-#|echo: false
+#| include: false
 
-# Solución sugerida (oculta)
 # rios <- data.frame(
 #   nombre = c("Rio1", "Rio2", "Rio3"),
 #   longitud_km = c(45.2, 120.5, 78.0),
@@ -378,8 +377,9 @@ str(info_tig)
 
 - Crea una lista que contenga: tu vector `long`, la matriz 5 x 5 `mat5` y el *data frame* `rios`.
 
-```{r sol_listas, echo = FALSE}
-# Solución sugerida (oculta)
+```{r sol_listas}
+#| include: false
+
 # mi_lista <- list(long = c(-3.7, -3.6, -3.8, -3.9), 
 #                    pendiente = mat5, rios = rios)
 # str(mi_lista)
@@ -421,8 +421,9 @@ mi_lista$b       # elemento por nombre
 
 - Accede al tercer elemento del elemento a de `mi_lista`.
 
-```{r, echo = FALSE}
-# Solución sugerida (oculta)
+```{r}
+#| include: false
+
 # long[3]
 # which.max(alt)
 # municipios[municipios$nombre == "C", "alt_media"]
